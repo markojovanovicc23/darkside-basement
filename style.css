@@ -12,14 +12,15 @@
 
 mark {
     background-color: #00d2ff;
-    color: black;
+    color: #495460;
+    font-weight: bold;
 }
 
 header h1 {
     text-align: center;
     font-size: 1.5rem;
     color: #fff;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 header a {
@@ -83,7 +84,7 @@ header a:hover {
 .logo h1 {
     color: #fff;
     font-size: 3rem;
-    font-weight: 1000;
+    font-weight: bold;
 }
 
 .logo i {
@@ -108,7 +109,7 @@ header a:hover {
     font-size: 1.6rem;
     letter-spacing: 20px;
     margin-left: 70px;
-    font-weight: 600;
+    font-weight: bold;
     margin-top: -20px;
 }
 
@@ -160,12 +161,14 @@ header a:hover {
     color: #fff;
     margin-top: 70px;
     margin-left: 300px;
+    font-weight: bold;
 }
 
 .heading-klasa p {
     color: #818181;
     margin-left: 500px;
     margin-top: -50px;
+    font-weight: bold;
 }
 
 .software-klasa {
@@ -259,7 +262,23 @@ td a:hover {
 @media screen and (max-width: 600px) {
     .heading-klasa h1 {
       font-size: 1.2rem;
-      margin-left: -2px;
+      margin-left: 125px;
       width: 80%;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .heading-klasa p {
+      font-size: 1rem;
+      margin-left: 250px;
+      width: 80%;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .table {
+      font-size: 0.9rem;
     }
 }

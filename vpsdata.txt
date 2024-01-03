@@ -1,0 +1,9 @@
+username: if0_35712227
+
+password: Aw2usXyuecrNX
+
+hostname: ftpupload.net
+
+port: 21
+
+http://darksidebasement.rf.gd/
