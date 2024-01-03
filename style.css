@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: #201c1c;
+}
+
+::selection {
+    color: white;
+    background: #00d2ff;
+}
+
+mark {
+    background-color: #00d2ff;
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.3rem;
+    border: 2px solid #16a6be;
+    background-color: #16a6be;
+    border-radius: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #fff;
+    transition: .9s;
+}
+
+header a:hover {
+    background-color: transparent;
+    transition: .9s;
+    border: 2px solid #00d2ff;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.node-button {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.node-button a {
+    font-size: 1.1rem;
+    border: 2px solid #16a6be;
+    background-color: #16a6be;
+    border-radius: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #fff;
+    text-decoration: none;
+    transition: .9s;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.node-button a:hover {
+    background-color: transparent;
+    transition: .9s;
+    border: 2px solid #00d2ff;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.node-button i {
+    background-color: transparent;
+    color: #fff;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.logo i {
+    border: 2px solid #16a6be;
+    background-color: #16a6be;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+    transition: .9s;
+}
+
+.logo i:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transition: .9s;
+}
+
+.logo p {
+    color: #fff;
+    font-size: 1.6rem;
+    letter-spacing: 20px;
+    margin-left: 70px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.button-baza {
+    text-align: center;
+}
+
+.button-baza a {
+    border: 2px solid #16a6be;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    transition: .9s;
+}
+
+.button-baza a:hover {
+    border: 2px solid #16a6be;
+    background-color: #16a6be;
+    transition: .9s;
+}
+
+.button-baza i {
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.button-baza i:hover {
+    background-color: transparent;
+}
+
+.announcement p {
+    color: #495460;
+    background-color: #d1ecf1;
+    border: 2px solid #d1ecf1;
+    background-color: #d1ecf1;
+    text-align: center;
+    padding: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.heading-klasa h1 {
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+.heading-klasa p {
+    color: #818181;
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+.software-klasa {
+    margin-left: 500px;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: -300px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid grey;
+}
+  
+th {
+    border: 1px solid transparent;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+    vertical-align: bottom;
+    border-bottom: 2px solid grey;
+}
+
+td {
+    border-bottom: 1px solid #32383e;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+}
+  
+th {
+    background-color: transparent;
+}
+
+td a {
+    color: #00d2ff;
+    text-decoration: none;
+    transition: .9s;
+}
+
+td a:hover {
+    text-decoration: underline;
+    transition: .9s;
+}
+
+.igrice-klasa {
+    margin-left: 500px;
+    color: #fff;
+}
+  
+  /* ako je manje od 600px */
+  @media screen and (max-width: 400px) {
+    .logo h1 {
+      font-size: 2rem;
+      margin-left: 100px;
+      width: 100%;
+    }
+}
+  
+  /* ako je manje od 600px */
+  @media screen and (max-width: 500px) {
+    .logo p {
+      font-size: 1.2rem;
+      margin-left: 200px;
+    }
+}
+
+  /* ako je manje od 600px */
+  @media screen and (max-width: 500px) {
+    .announcement p {
+      font-size: 1.2rem;
+      margin-left: 200px;
+      width: 50%;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 500px) {
+    .software-klasa {
+      margin-right: 400px;
+      margin-left: 400px;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .heading-klasa h1 {
+      font-size: 1.2rem;
+      margin-left: -2px;
+      width: 80%;
+    }
+}

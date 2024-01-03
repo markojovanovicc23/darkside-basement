@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: #201c1c;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.logo i {
+    border: 2px solid #16a6be;
+    background-color: #16a6be;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+    transition: .9s;
+}
+
+.logo i:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transition: .9s;
+}
+
+.logo p {
+    color: #fff;
+    font-size: 1.6rem;
+    letter-spacing: 20px;
+    margin-left: 100px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.file-icon i {
+    font-size: 5rem;
+    margin-left: 950px;
+    color: #fff;
+}
+
+.download-icon i {
+    color: #fff;
+    border: 2px solid #222222;
+    background-color: #222222;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    font-size: 2.5rem;
+    margin-left: 930px;
+    margin-top: 35px;
+    transition: .9s;
+}
+
+.download-icon i:hover {
+    border: 2px solid #16a6be;
+    background-color: #16a6be;
+    border-radius: 8px;
+    transition: .9s;
+}
+
+.nazad-text {
+    color: #fff;
+    border: 2px solid transparent;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin-left: 900px;
+    margin-top: 20px;
+    transition: .9s;
+}
+
+.nazad-text a {
+    text-decoration: none;
+    color: #fff;
+    transition: .9s;
+    border: 2px solid transparent;
+    background-color: #222222;
+    border-radius: 8px;
+    font-size: 1.9rem;
+}
+
+.nazad-text a:hover {
+    border: 2px solid #16a6be;
+    background-color: #16a6be;
+    border-radius: 8px;
+    transition: .9s;
+}
+
+.opis h1 {
+    text-align: center;
+    color: #fff;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.opis p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 50px;
+    font-weight: 600;
+}
