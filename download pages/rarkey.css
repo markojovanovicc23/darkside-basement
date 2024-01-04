@@ -105,8 +105,62 @@
     text-align: center;
     margin-left: 110px;
     font-weight: 600;
+    color: #fff;
+}
+
+.opis h1 {
+    margin-right: 50px;
 }
 
 .opis p {
     font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .logo {
+      font-size: 1rem;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .opis h1 {
+      font-size: 1.3rem;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .opis p {
+      font-size: 1rem;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .file-icon i {
+      font-size: 3rem;
+      position: relative;
+      margin-left: 200px;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .download-icon i {
+        font-size: 2rem;
+        position: relative;
+        margin-left: 170px;
+    }
+}
+
+/* ako je manje od 600px */
+@media screen and (max-width: 600px) {
+    .nazad-text  {
+        font-size: 1.5rem;
+        position: relative;
+        margin-left: 140px;
+    }
 }
